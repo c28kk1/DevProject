@@ -1,14 +1,14 @@
 * {
     font-family: Helvetica, Arial, sans-serif;
+    background-color: skyblue;
   }
   
   
   h1 {
-    color: SeaGreen;
+    color: white;
   }
   
   
-  p, 
   li {
     font-size: 18px;
   }
@@ -19,7 +19,14 @@
   }
 
   #header_1{
-    margin: auto;
-    width: 50%;
+    text-align: center;
+    margin-top: 20px;
+    
+  }
+
+  #img_1 {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
   }
   
