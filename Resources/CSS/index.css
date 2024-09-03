@@ -64,6 +64,20 @@
     top: 100px;
   }
 
+  #container {
+    width: 600px;
+    height: 100px;
+    background-color:#31c4f9;
+    position: relative;
+    left: 300px;
+  }
+
+  #img_animation {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+  }
+
   #header_1{
     text-align: center;
     margin-top: 20px;

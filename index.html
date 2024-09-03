@@ -21,6 +21,29 @@
 <div class="position_100">
     <img id="img_1" src="Resources/Images/Ball_&_Goal.jpg" width="50%" height="50%">
     <h1 id=header_1>Soccer Positions and How to Play Them</h1>
+    <!-- ANIMATION -->
+    <div id="container">
+      <img id="img_animation" src="Resources/Images/soccer_ball.jpeg" onload="myMove();">
+    </div>
+    <script>
+        function myMove() {
+          let id1 = null;
+          const elem = document.getElementById("img_animation");   
+          let pos = 0;
+          clearInterval(id1);
+          id1 = setInterval(frame, 5);
+          function frame() {
+            if (pos < 500) {
+              pos++; 
+              elem.style.left = pos + "px";
+            } else {
+              clearInterval(id1);
+              myMove(); 
+            }
+          }
+        }
+        </script>
+    <!-- END ANIMATION -->
     <h3>Attack</h3>
     <ul id = "index_attack">
         <a href="Resources/Positions/attack.html#striker"><li>Striker</li></a>
